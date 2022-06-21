@@ -1,0 +1,9 @@
+{% if receipts %}
+    <ul>
+        {% for e in receipts %}
+            <li> {{e}} </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <h1> you do not have any data </h1>
+{% endif %}
